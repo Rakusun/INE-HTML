@@ -1,0 +1,55 @@
+body {
+    font-family:"Sarabun", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #fdfdfd;
+    background-color: #222;
+    margin: 20px;
+}
+h1 {
+    font-size: 28px;
+    color: #fdfdfd;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    text-align: center;
+}
+strong {
+    font-weight: bold;
+    color: #fdfdfd;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th {
+    background-color: #e90417;
+    color: white;
+    border: 1px solid #fdfdfd;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    border: 1px solid #fdfdfd;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #222;
+}
